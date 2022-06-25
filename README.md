@@ -4,7 +4,13 @@
 
 ```bash
 npx degit vasilews/svelte-template my-app
+```
+
+```bash
 cd my-app
+```
+
+```bash
 npm install
 ```
 
@@ -12,18 +18,22 @@ npm install
 
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
 ## Testing
 
+Run all unit tests with Vitest
+
 ```bash
-npm run test # run all unit tests with Vitest
-npm run test:e2e # run all e2e tests with Playwright
+npm run test
 ```
 
+Run all e2e tests with Playwright
+
+```bash
+npm run test:e2e
+
+```
 ## Building
 
 To create a production version of your app:
