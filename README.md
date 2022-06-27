@@ -32,8 +32,8 @@ Run all e2e tests with Playwright
 
 ```bash
 npm run test:e2e
-
 ```
+
 ## Building
 
 To create a production version of your app:
